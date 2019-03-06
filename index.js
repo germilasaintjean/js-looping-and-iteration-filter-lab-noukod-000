@@ -2,10 +2,11 @@
 
 drivers = {};
 
-function findMatching (collection) {
-  for (const driver of collection) {
+function findMatching (collection) 
+{
+  for (const driver of collection) 
+  {
     console.log(driver.name);
   }
-
 }
 findMatching(drivers);
