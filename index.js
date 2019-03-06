@@ -1,12 +1,8 @@
 // Code your solution in this file
 
-drivers = {};
-
-function findMatching (collection)
+function findMatching (list, name)
 {
-  for (const driver of collection)
-  {
-    console.log(driver.name);
-  }
+return list.filter(function (driverName) {
+  return driverName.toLowerCase() === name.toLowerCase();
+});
 }
-findMatching(drivers);
